@@ -1,0 +1,40 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "name": "TaskTitan",
+      "description": "A drag-and-drop task manager with Firebase authentication and real-time updates.",
+      "tech": ["React", "Tailwind CSS", "Firebase"],
+      "demoLink": "https://tasktitan-demo.netlify.app",
+      "githubLink": "https://github.com/yourusername/tasktitan",
+      "image": "https://placehold.co/600x400/3b82f6/white?text=TaskTitan"
+    },
+    {
+      "id": 2,
+      "name": "WeatherPulse",
+      "description": "Minimalist weather app with 5-day forecasts using the OpenWeather API.",
+      "tech": ["JavaScript", "CSS Grid", "REST API"],
+      "demoLink": "https://weatherpulse-demo.netlify.app",
+      "githubLink": "https://github.com/yourusername/weatherpulse",
+      "image": "https://placehold.co/600x400/10b981/white?text=WeatherPulse"
+    },
+    {
+      "id": 3,
+      "name": "CodeCanvas",
+      "description": "Interactive code playground with live Markdown preview (like Codepen lite).",
+      "tech": ["Vue.js", "Monaco Editor", "Marked.js"],
+      "demoLink": "https://codecanvas-demo.netlify.app",
+      "githubLink": "https://github.com/yourusername/codecanvas",
+      "image": "https://placehold.co/600x400/f59e0b/white?text=CodeCanvas"
+    }
+  ],
+  "challenges": [
+    {
+      "id": 1,
+      "title": "Button Animator",
+      "description": "Create a button that grows and changes color on hover using CSS transitions.",
+      "starterCode": "<button class='btn'>Hover Me</button>",
+      "solution": "<button class='btn hover:scale-110 hover:bg-blue-500 transition-all'>Hover Me</button>"
+    }
+  ]
+}
